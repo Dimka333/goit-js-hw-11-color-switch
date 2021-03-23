@@ -1,0 +1,15 @@
+.btn {
+  display: inline-flex;
+  background-color: yellow;
+  border-radius: 20%;
+  width: 80px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-style: none;
+}
+.btn:focus {
+  outline: none;
+  background-color: green;
+}
